@@ -6,16 +6,6 @@
   <properties/>
   <scm class="hudson.plugins.git.GitSCM" plugin="git@3.0.4">
     <configVersion>2</configVersion>
-    <userRemoteConfigs>
-      <hudson.plugins.git.UserRemoteConfig>
-        <url>C:\Users\anajjar\workspace\Webshoppy</url>
-      </hudson.plugins.git.UserRemoteConfig>
-    </userRemoteConfigs>
-    <branches>
-      <hudson.plugins.git.BranchSpec>
-        <name>*/master</name>
-      </hudson.plugins.git.BranchSpec>
-    </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
     <submoduleCfg class="list"/>
     <extensions/>
@@ -28,7 +18,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <jenkins.plugins.shiningpanda.builders.CustomPythonBuilder plugin="shiningpanda@0.23">
-      <home>C:\Users\anajjar\AppData\Local\Programs\Python\Python36-32</home>
+      <home>raghvendra//usr/local/bin/python 3.6.4</home>
       <nature>shell</nature>
       <command>nosetests --with-xunit --all-modules --traverse-namespace</command>
       <ignoreExitCode>false</ignoreExitCode>
